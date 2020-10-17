@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Page for contact information-->
+    <meta charset="UTF-8">
+    <html lang="en">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <title>Contact</title>
+    <!DOCTYPE html>  
+    <link href="https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="./assets/style.css">
+
+</head>
+
+<body>  
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3"> <!--carrying the navbar over from home page-->
+    <div class="container-fluid">
+        <div class="navbar-brand">Brenda Miller</div>
+        <div class="navbar-header">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                <a href="contact.html" class="nav-item nav-link active">Contact</a>
+            </div>
+        </div>
+      </div>
+     
+    </div>   
+  </nav>
+
+  <div class="container">   <!--creating container for the contact form-->
+  <div class="col-md-8 main-section"> <!--defining the responsive screen size for the form-->
+    <h1>Contact</h1>
+    
+    <form> <!--the form below allows for name, email and a message to be entered and sent-->
+      <div class="form-group" id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="ex: Bea Arthur" required="required">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="example@yahoo.com" required="required">
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required="required"></textarea>
+      </div>
+         <!--the submit doesn't work yet, the backend code doesn't exist yet--> 
+        <button type="submit" class="btn btn-default" id="submit-button">Submit</button>
+
+    </form>
+  </div>    
+ </div>   
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<footer>
+    <p>&copy; Copyright 2020 Brenda Miller</p>
+  </footer> 
+    
+</body>
+</html>
