@@ -14,7 +14,7 @@ body {
   border-radius: 8px;
   max-width: 65%;
   max-height: 65%;   
-  margin-left: 50px;
+  margin-left: 150px;
 }
 
 .navbar-brand {
@@ -42,7 +42,7 @@ body {
 
 p {
   font-size: 18px;
-  padding-left: 50px;
+  padding-left: 150px;
   max-height: 400px;
 }
 
